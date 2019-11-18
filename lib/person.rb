@@ -10,7 +10,7 @@ class Person
   def name
     name="#{first_name} #{last_name}"
   end
-  def name
-    @name
+  def name=(string)
+    @name = string
   end
 end
