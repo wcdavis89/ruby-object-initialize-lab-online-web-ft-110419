@@ -8,7 +8,7 @@ class Person
     @last_name=last_name
   end
   def name=(string)
-    name= string
+    @name= string
   end
   def name
     @name 
