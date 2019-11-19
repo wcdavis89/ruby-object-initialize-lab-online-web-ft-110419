@@ -7,8 +7,8 @@ class Person
     @first_name=first_name
     @last_name=last_name
   end
-  def name
-    name="#{first_name} #{last_name}"
+  def name=(string)
+    name= string
   end
   def name=(string)
     @name = string
